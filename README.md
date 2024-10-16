@@ -5,4 +5,4 @@ guidelines from The Odin Project.
 
 This project allowed me to practice using the *<a>* tag for both absolute and
 relative links, adding images and employing ordered and unordered lists.
-You can find the project at https://www.theodinproject.com/lessons/foundations-recipes.
+You can find the project at [The Odin Project](https://www.theodinproject.com/lessons/foundations-recipes).
