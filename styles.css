@@ -21,5 +21,20 @@ ul {
 }
 
 ul#home {
+    font-size: 1.2em;
     width: 25%;
 }
+
+/* Unvisited Link*/
+a:link {
+  color:#744c21;
+}
+
+a:visited {
+    color:#b0681a;
+}
+
+a:hover {
+    color:#b0681a;
+}
+
