@@ -15,9 +15,9 @@ h1 {
 }
 
 ul {
-  color: #b0681a;
+  color: #955817;
   background-color: #ffebcd;
-  width: 50%;
+
 }
 
 ul#home {
@@ -27,7 +27,7 @@ ul#home {
 
 /* Unvisited Link*/
 a:link {
-  color:#744c21;
+  color:#75440f;
 }
 
 a:visited {
