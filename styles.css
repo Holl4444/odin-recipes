@@ -96,3 +96,8 @@ img {
   margin: auto;
   margin-bottom: 75px;
 }
+
+#front {
+  width: 90%;
+  margin: 75px 0 0 15%;
+}
