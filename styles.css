@@ -22,16 +22,17 @@ body {
 #title_container {
   background-color: #ffebcd;
   box-shadow: 5px 3px 3px #955817;
-  width: 60%;
-  margin: 0 30%;
+  width: 100%;
+  white-space: nowrap;
+  margin: auto;
+  margin-bottom: 100px;
 }
 
 h1 {
   font-size: 3em;
   text-align: center;
   color: #371e03;
-  -webkit-text-stroke: 1px #955817;
-  margin: 40px;
+  -webkit-text-stroke: 1px;
   padding: 5px 0;
 }
 
@@ -97,7 +98,26 @@ img {
   margin-bottom: 75px;
 }
 
+.pumpkin {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
 #front {
-  width: 90%;
-  margin: 75px 0 0 15%;
+  margin: 75px 0 28%;
+  height: auto;
+  width: 600px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#autumn-text {
+  position: absolute;
+  bottom: 250px;
+  left: 28px;
+  height: 20%;
+  width: auto;
+  opacity: 0.75;
 }
