@@ -121,3 +121,24 @@ img {
   width: auto;
   opacity: 0.75;
 }
+
+.video {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+.article {
+  max-width: 50%;
+  margin-right: 40px;
+  margin-top: 70px
+}
+
+#zucchini {
+  max-width: 100%;
+}
+
+.article p {
+  font-weight: bold;
+  color: #fffdfa;
+}
