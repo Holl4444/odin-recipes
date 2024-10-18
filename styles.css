@@ -1,21 +1,38 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: #f6c693;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  box-sizing: border-box;
+  position: fixed;
+  background-color: #e87c09;
+}
+
+.content {
+  padding: 5vh 20vw;
   color: #371e03;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  padding: 5vh 25vw;
+  margin-left: 10%;
 }
 
 #title_container {
   background-color: #ffebcd;
-  width: 85%;
-  margin: 0 10%;
+  box-shadow: 5px 3px 3px #955817;
+  width: 60%;
+  margin: 0 30%;
 }
 
 h1 {
+  font-size: 3em;
   text-align: center;
   color: #371e03;
   -webkit-text-stroke: 1px #955817;
-  margin: 50px;
+  margin: 40px;
+  padding: 5px 0;
 }
 
 ul {
@@ -26,15 +43,24 @@ ul {
   background-color: #ffebcd;
 }
 
-#home,
 #foot-id {
-  font-size: 1.2em;
   list-style: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 60%;
+}
+
+#home {
+  font-size: 1.5em;
+  margin: 30vh 0;
+  background-color: #ffebcd;
+}
+
+#home li {
+  margin: 20px;
+  padding-right: 15px;
 }
 
 .foot ul {
@@ -66,6 +92,7 @@ a:hover {
 }
 
 img {
-  display: flex;
-  justify-content: center;
+  display: block;
+  margin: auto;
+  margin-bottom: 75px;
 }
