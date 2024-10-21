@@ -127,7 +127,7 @@ img {
   left: 0;
 }
 
-#pumpkin_text {
+.pumpkin_text {
   position: absolute;
   bottom: 35%;
   left: 8%;
