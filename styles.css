@@ -119,6 +119,7 @@ img {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   column-gap: 10px;
+  margin-left: 2vw;
 }
 
 .pumpkin_image {
@@ -138,7 +139,6 @@ img {
 .pumpkin .article {
   max-width: 60%;
   margin-right: 0;
-  margin-left: 2vw;
 }
 
 .pumpkin .pumpkin_image #pumpkin_image_main {
