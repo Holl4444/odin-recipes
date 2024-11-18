@@ -30,13 +30,14 @@ body {
 }
 
 .content {
-  margin: 0 25vw;git push
+  margin: 0 25vw;
 }
 
 #title_container {
   background-color: #ffebcd;
   box-shadow: 0px 5px 3px 3px #955817; /*Updated after using dev tools to edit*/
   margin-bottom: 100px;
+  border-radius: 15px;
 }
 
 h1 {
